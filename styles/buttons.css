@@ -53,7 +53,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 0.09375rem;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
@@ -68,15 +68,15 @@
   }
 }
 
-@media (width >=80em){
+@media (width >=80em) {
 
-.btn-sm{
-  padding: .75rem 1.5rem;
-  font-size: var(--fs-base);
-}
+  .btn-sm {
+    padding: .75rem 1.5rem;
+    font-size: var(--fs-base);
+  }
 
-.btn-md{
-  padding: 1rem 2rem;
-  font-size: 1.125rem;
-}
+  .btn-md {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+  }
 }
