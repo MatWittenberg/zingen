@@ -16,7 +16,7 @@ a.social {
     }
   }
 
-  &[aria-label="instragram"] {
+  &[aria-label="instagram"] {
    --bg-img: url(../assets/icons/instagram.svg);
 
     &:hover {
